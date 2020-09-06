@@ -1,1 +1,111 @@
-ECHO est� ativado.
+@charset "UTF-8";
+
+/*Configuração da Div(Largura de 100%)  */
+
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;        
+    background-color: #606060;
+}
+
+div{
+    background-color: yellow;
+
+}
+
+ /*Configuração do paragrafo  */
+section{
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    background-color: white;
+    height: 200px;
+}         
+
+/*Configuração geral da section  */
+
+
+@media (min-width: 992px){
+h1{
+    color: blue; 
+    font-size: 26pt; 
+    }   
+                                              
+.s1 {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: auto;
+    width: 25%;
+    float: left;
+       
+    
+}                       
+
+.s2 {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: auto;
+    width: 25%;
+    float: left; 
+           
+}
+        
+.s3 {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+    float: left;
+}
+}                                
+        
+@media (min-width: 768px) and (max-width: 991px){
+h1{
+    color: green;
+    font-size: 26pt;
+    }    
+                                                
+.s1{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-right: 4px;
+    width: 50%;
+    float: left;
+    }                       
+        
+.s2{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-right: 4px;
+    width: 50%;
+    float: left; 
+    }
+        
+.s3{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    }
+}
+
+@media (max-width: 767px){
+h1{
+    color: Red;
+    font-size: 26pt;
+    }
+}
+    
+.t{
+    float: right; 
+    border: 1px solid black;
+    margin: 0px;
+    padding: 10px;    
+    background-color: green;
+}
+    
+    
