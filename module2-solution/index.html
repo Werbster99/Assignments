@@ -1,19 +1,190 @@
-<!DOCTYPE html>
+<!DOCTYPE htlm>
 
-<html lang="pt-br">
+<htlm lang="pt-br">
 
 <head>
+ 
+<meta charset="utf-8">
 
-<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Assignment Module2</title>
+<title>Exemplo2</title>
 
-</head>
+<style>     
+
+/* Mobile */
+
+@media(max-width: 767px){
+
+div{ 
+      
+    margin-top: 10%;
+    margin-bottom: 10;
+}
+
+section{    
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 1px solid black;  
+    background-color: pink;   
+    float: left;   
+} 
+   
+.s1{
+    margin-bottom: 10%;
+}
+   
+.s3{
+    margin-top:10%;
+}
+
+.h1 {    
+    float: right;
+    background-color: red;    
+    width: 100px;    
+    height: 50px;    
+    margin-top: 0;  
+    clear: left;    
+}  
+  
+.p1 {    
+    background-color: green; 
+    height: 250px;
+    width: 100%;
+    text-align: justify;
+    overflow: hidden;
+    margin: 0px;
+}
+
+}
+
+/* Tablet */
+
+@media(min-width: 768px) and (max-width: 991px){
+
+div { 
+    margin-top: 10%;
+}
+
+section{          
+    width: 25%;
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid black;  
+    background-color: pink;   
+    float: left;   
+    overflow: hidden;    
+    } 
+  
+.s1{
+    margin-left: 0px;
+    margin-right: 10%;
+    width: 45%;
+}
+   
+.s2{
+    width: 45%;
+    float: left;
+    margin-right:0px;
+}
+
+.s3{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.h1 {    
+    float: right;
+    background-color: red;    
+    width: 100px;    
+    height: 50px;    
+    margin-top: 0;  
+}  
+
+.p1 {    
+    background-color: green; 
+    height: 250px;
+    width: 100%;
+    text-align: justify;
+    overflow: hidden;
+    margin: 0px;
+}
+
+}
+
+/* Desktop */
+
+@media(min-width: 992px){
+
+div { 
+    margin-top: 10%;
+}
+
+section{    
+    width: 25%;
+    box-sizing: border-box;
+    margin: auto 10px auto 10px ;
+    border: 1px solid black;  
+    background-color: pink;   
+    float: left;   
+} 
+
+.s1{
+    margin-left: 10%;
+}
+   
+.s3{
+    margin-right:10%;
+}
+
+   
+.h1 {    
+    float: right;
+    background-color: red;    
+    width: 100px;    
+    height: 50px;    
+    margin-top: 0;  
+    clear: left;    
+}  
+
+.p1 {    
+    background-color: green; 
+    height: 250px;
+    width: 100%;
+    text-align: justify;
+    overflow: hidden;
+    margin: 0px;
+}
+
+}
+
+</style>
+
+</head>    
 
 <body>
 
-<h1>Hello World</h1>
+    <div> 
+        <section class="s1">       
+            <h1 class="h1">Title</h1>       
+                <p class="p1">
+                    Lorem ipsum dolor sit amet. In explicabo deserunt sed labore repudiandae aut enim aliquam aut iste illum cum dolor laborum aut itaque doloremque. Id iure omnis qui molestiae consequatur aut nihil modi in possimus rerum qui fuga excepturi?</p>
+        </section>
+    
+        <section class="s2">
+            <h1 class="h1">Title2</h1>    
+                <p class="p1">
+                    Aliquam asperiores in assumenda laboriosam 33 necessitatibus libero id eaque sunt ut iste ipsum et quasi beatae! Qui eaque similique in nisi quidem cum nihil repellat aut quia aperiam sed optio placeat! Vel quis nihil nam error molestiae a nostrum earum eum illum sint ut maxime nisi quo repudiandae corrupti.</p>    
+        </section>    
+    
+        <section class="s3">
+            <h1 class="h1">Title3</h1>    
+                <p class="p1">
+                    Ut corporis temporibus quo vero nemo qui omnis quis ut labore ducimus aut quas dolores. Ea dolor similique 33 accusamus quasi vel fugiat corporis! Est dicta aspernatur aut tenetur obcaecati eum porro quisquam cum molestiae consectetur. Sit doloribus reiciendis ea odit quaerat sit consequatur sit expedita voluptas est sequiexplicabo<p>    
+        </section>
+    </div>
 
-</body>    
+</body>
 
 </html>
