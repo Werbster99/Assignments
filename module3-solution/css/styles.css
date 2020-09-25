@@ -1,14 +1,92 @@
 @charset "utf-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #f6b319;
+    border-radius: 0px;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 { /* Standart name */
+    font-family: 'Lora', serif;
+    color: #1f5005;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+ 
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+    font-weight: bold;
+}
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+  
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
 }
 
-body{
-    background-color: rebeccapurple;
+#main-content p{
+    text-indent: 50px;
 }
 
-div.container{
-    background-color: tomato;
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #cecece;
+    margin-bottom: 60px;
+    box-shadow: 0 0 2px #cccccc;
+}
+
+/** END HOME PAGE **/
